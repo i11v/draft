@@ -60,7 +60,7 @@ module.exports = function (grunt) {
           livereload: true
         },
         files: ["views/**/*.jade", "public/style/**/*.styl", "content.json", "public/js/**/*.js"],
-        tasks: ["jade:debug", "stylus:debug", "concat"]
+        tasks: ["jade:debug", "stylus:debug"]
       }
     }
   });
