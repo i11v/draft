@@ -11,6 +11,10 @@ Icon
 .Spotlight-V100
 .Trashes
 
+# Sublime project files
+*.sublime-project
+*.sublime-workspace
+
 # Exclude node modules
 /node_modules/
 
